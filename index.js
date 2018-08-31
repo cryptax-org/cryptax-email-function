@@ -84,7 +84,7 @@ function getPayload (requestBody) {
     },
     content: [
       {
-        type: 'text/plain',
+        type: 'text/html',
         value: requestBody.body
       }
     ]
